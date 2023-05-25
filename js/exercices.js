@@ -115,4 +115,69 @@
 // } while(nombre !== nombreAleatoire);
 
 
+// exercice 8
 
+// let nombre = prompt(`Entrez un nombre`);
+// if(isNaN(nombre)){
+//     console.log(`Veuillez suivre les instructions`);
+// } else{
+//     console.log(`Le chiffre entré est ${nombre}`);
+// }
+// let i;
+// for( i = 1 ; i < 12 ; i += 1){
+//     console.log(nombre++);
+// }
+
+// exercice 9 
+
+// let nombre = prompt(`Entrez un nombre`);
+// if(isNaN(nombre)){
+//     console.log(`Veuillez suivre les instructions`);
+// }
+
+// let i;
+// let resultat;
+
+// for( i = 1; i < 11 ; i++){
+//     resultat = nombre * i;
+//     console.log(`${nombre} X ${i} = ${resultat}`);
+// }
+
+// exercice 10
+
+// let nombre = parseInt(prompt(`Entrez un nombre`));
+// if(isNaN(nombre)){
+//     console.log(`Veuillez suivre les instructions`);
+// }
+
+// let laSomme = 0;
+// let b;
+// for( b = 1 ; b <= nombre; b += 1){
+//     laSomme += b;
+//     console.log(`${laSomme}`);
+// }
+
+
+// exercice 11
+
+// let nombre = parseInt(prompt(`Entrez un nombre`));
+// if(isNaN(nombre)){
+//     console.log(`Veuillez suivre les instructions`);
+// }
+
+// let produit = 1;
+// for( let i = 1; i <= nombre; i++){
+//     produit *= i;  
+// }
+// console.log(`${produit}`);
+
+// exercice 12
+
+// let nombres = [];
+// for(let i = 0; i < 20; i++){
+//     nombres[i] = parseInt(prompt(`Entrez un nombre`));
+// }
+
+// for(let i = 0; i < nombres.length; i++){
+//     console.log(nombres[i]);
+// }
